@@ -9,8 +9,8 @@ router.get('/cards', (req, res) => {
       console.log(err);
       return;
     }
-   res.send(data)
-  })
-})
+   res.send(data);
+  });
+});
 
 module.exports = router;

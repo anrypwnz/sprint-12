@@ -23,8 +23,3 @@ app.all('/:any', (req,res,next)=> {
   res.status(404).send({ 'message': 'Запрашиваемый ресурс не найден' });
   next();
 });
-
-app.all('/:any', (req,res,next)=> {
-  res.status(404).send({ 'message': 'Запрашиваемый ресурс не найден' });
-  next();
-});
